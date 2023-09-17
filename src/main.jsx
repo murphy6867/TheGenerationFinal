@@ -6,10 +6,10 @@ import {
   Route
 } from 'react-router-dom';
 import './index.css'
-import Login from './pages/login/Login.jsx';
+import Form from './pages/Form/Form.jsx';
 
 const router = createBrowserRouter(createRoutesFromElements(
-    <Route index element={<Login/>}/>
+    <Route index element={<Form />}/>
 ))
 
 // eslint-disable-next-line react-refresh/only-export-components

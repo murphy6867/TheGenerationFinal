@@ -1,0 +1,36 @@
+*{
+    color: #666666;
+    font-weight: 600;
+}
+.Box { 
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    
+    border-radius: 8px;
+    
+}
+
+.Right, label, input {
+    height: 100%;
+    text-align: end;
+    background-color:antiquewhite;
+}
+
+
+
+#location {
+    float: left;
+}
+
+h2 {
+    display: flex;
+    margin-left: 10px;
+}
+
+textarea {
+    background-color: rgb(189, 187, 183);
+}
+
