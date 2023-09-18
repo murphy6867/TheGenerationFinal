@@ -1,7 +1,10 @@
 import './Login.css'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
+
 <>
   <div>
     <form>
@@ -20,7 +23,29 @@ const Login = () => {
     <p>To keep connected with us please login with your personal info</p>
     <button>Sign In</button>
   </div>
-</>
+
+      <div id='temporary-link'>
+        <h4>temporary link for checking</h4>
+        <ul>
+          <Link to = "home">
+            <li>Link to Home</li>
+          </Link>
+          <Link to = "profile">
+            <li>Link to Profile</li>
+          </Link>
+          <Link to = "register">
+            <li>Link to Register</li>
+          </Link>
+          <Link to = "setting">
+            <li>Link to Setting</li>
+          </Link>
+          <Link to = "form">
+            <li>Link to Form</li>
+          </Link>  
+        </ul>
+      </div>
+    </>
+
   )
 }
 
