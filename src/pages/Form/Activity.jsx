@@ -15,7 +15,7 @@ const Activity = ({ selectOptions, handleChange }) => {
         <option value="running">Running</option>
         <option value="yoga">Yoga</option>
         <option value="weight">Weight Training</option>
-        <option value="bicycle">Bicycle</option> {/* Corrected value */}
+        <option value="bicycle">Bicycle</option>
       </select>
     </div>
   );
