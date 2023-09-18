@@ -15,7 +15,7 @@ const Distance = ({ selectOption }) => { // Use selectOption as prop name
               type="number"
             />
             <label htmlFor="distance" className="mr-2">
-              KM.
+              KM
             </label>
           </div>
         </div>
