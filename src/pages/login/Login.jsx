@@ -1,12 +1,11 @@
 import './Login.css'
 
-function Login() {
-
+const Login = () => {
   return (
 <>
   <div>
     <form>
-      <h1>LOGIN</h1>
+      s<h1>LOGIN</h1>
       <span>Please enter your login and password!</span>
       <input type="username" placeholder="username" />
       <input type="password" placeholder="Password" />
