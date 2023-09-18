@@ -2,13 +2,27 @@ import './Login.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Login() {
-
+const Login = () => {
   return (
-    <>
-      <h1 className='uppercase underline text-xl'>hello world</h1>
-      <h2>test branch 1000</h2>
 
+<>
+  <div>
+    <form>
+      s<h1>LOGIN</h1>
+      <span>Please enter your login and password!</span>
+      <input type="username" placeholder="username" />
+      <input type="password" placeholder="Password" />
+      <a href="#">Forgot your password?</a>
+      <button>Sign In</button>
+      <span>Don’t have an account? <a href="#">Sign up</a></span>
+      </form>
+    </div>
+
+  <div>
+    <h1>Welcome Back!</h1>
+    <p>To keep connected with us please login with your personal info</p>
+    <button>Sign In</button>
+  </div>
 
       <div id='temporary-link'>
         <h4>temporary link for checking</h4>
@@ -31,6 +45,7 @@ function Login() {
         </ul>
       </div>
     </>
+
   )
 }
 
