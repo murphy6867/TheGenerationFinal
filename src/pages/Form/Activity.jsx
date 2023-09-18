@@ -7,7 +7,7 @@ const Activity = ({ selectOptions, handleChange }) => {
       <select
         value={selectOptions}
         onChange={handleChange}
-        className="Right mr-2 w-[50%]"
+        className="Right mr-2 w-[40%]"
       >
         <option value="1" disabled defaultValue>
           Select Activity

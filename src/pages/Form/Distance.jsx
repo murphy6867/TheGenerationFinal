@@ -2,7 +2,7 @@ import React from "react";
 
 const Distance = ({ selectOption }) => { // Use selectOption as prop name
   return (
-    <div>
+    <>
       {(selectOption === "running" || selectOption === "bicycle") && (
         <div className="flex Box h-14">
           <h2>Distance</h2>
@@ -20,7 +20,7 @@ const Distance = ({ selectOption }) => { // Use selectOption as prop name
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

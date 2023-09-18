@@ -7,6 +7,8 @@ import Note from "./Note";
 import Location from "./Location";
 import BtnSave from "./ButtonSave";
 
+import './form.css'
+
 const Form = () => {
   const [selectOptions, setSelectOptions] = useState("1");
 
@@ -16,7 +18,7 @@ const Form = () => {
 
   return (
     <>
-      <div className="w-[50vw] h-screen absolute left-0  flex items-center justify-center">
+      <div className="w-[50vw] h-screen absolute left-0 top-20 flex items-center justify-center">
         <form className="w-[500px] h-full justify-center px-2 flex gap-3 relative flex-col">
           <Activity
             selectOptions={selectOptions}

@@ -8,7 +8,6 @@
     align-items: center;
     justify-content: space-between;
     background-color: antiquewhite;
-    
     border-radius: 8px;
     
 }
@@ -17,7 +16,14 @@
     height: 100%;
     text-align: end;
     background-color:antiquewhite;
+    border: none;
+    outline: none !important;
 }
+
+option {
+    font-size: 1.1rem;
+}
+
 
 
 
@@ -32,5 +38,6 @@ h2 {
 
 textarea {
     background-color: rgb(189, 187, 183);
+    padding: 10px;
 }
 
