@@ -4,10 +4,10 @@ function Login() {
 
   return (
 <>
-	<div>
-	  <form>
+  <div>
+    <form>
       <h1>LOGIN</h1>
-	    <span>Please enter your login and password!</span>
+      <span>Please enter your login and password!</span>
       <input type="username" placeholder="username" />
       <input type="password" placeholder="Password" />
       <a href="#">Forgot your password?</a>
