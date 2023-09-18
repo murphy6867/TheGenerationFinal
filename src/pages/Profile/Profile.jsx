@@ -5,6 +5,7 @@ const Profile = () => {
   return (
     <div>
       //navbar here
+      // spare space for nav bar
       <div>
         <div id='profile-image'></div>
         <div id='profile-name'></div> 
