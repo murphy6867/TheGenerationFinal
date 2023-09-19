@@ -23,6 +23,17 @@ const Register = () => {
     console.log(formData);
   };
 
+
+  const handleChanges = (e) => {
+    const { name, value } = e.target;
+    if (name === "username" || name === "password") {
+      const updatedValue = value.replace(/\s/g,"")
+      setFormData({...formData, [name]: updatedValue })
+    } else {
+        setFormData({...formData, [name]: value})
+    }
+  }
+
   return (
     <div className="flex">
       <div className="min-h-screen w-screen flex items-center justify-center border-2">

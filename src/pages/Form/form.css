@@ -1,3 +1,7 @@
+*{
+    color:black !important;
+    font-weight: 500 !important;
+}
 
 .Box { 
     border: 2px solid;
@@ -6,6 +10,7 @@
     justify-content: space-between;
     background-color: antiquewhite;
     border-radius: 8px;
+    color: black;
     
 }
 

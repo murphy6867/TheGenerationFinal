@@ -12,7 +12,7 @@ import Form from './pages/Form/Form';
 import Register from './pages/Register/Register';
 
 const router = createBrowserRouter(createRoutesFromElements(
-    <Route index element={<Register />}/>
+    <Route index element={<Form />}/>
 ))
 
 // eslint-disable-next-line react-refresh/only-export-components
