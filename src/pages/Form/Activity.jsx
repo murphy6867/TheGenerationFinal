@@ -13,6 +13,7 @@ const Activity = ({ selectOptions, handleChange }) => {
           Select Activity
         </option>
         <option value="running">Running</option>
+        <option value="Arobic">Arobic</option>
         <option value="yoga">Yoga</option>
         <option value="weight">Weight Training</option>
         <option value="bicycle">Bicycle</option>

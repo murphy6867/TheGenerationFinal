@@ -33,8 +33,8 @@ const Form = () => {
         </form>
       </div>
 
-      <div className="w-[50vw] h-screen absolute flex justify-center items-center right-0 bg-black">
-        <div className="w-[250px] rounded-md h-[250px] bg-white">
+      <div className="w-[50vw] h-screen absolute flex justify-center items-center right-0">
+        <div className="w-[350px] rounded-md h-[350px] bg-white">
           <img alt="Activity" />
         </div>
       </div>
