@@ -1,8 +1,11 @@
-const Card = ({id, activity_id}) => {
+const Card = ({activity_id, start_date, duration, location, note}) => {
     return (
-        <div className="card-body">
-            <h2 className="card-title">id : {id}</h2>
-            <div className="label">activity : {activity_id}</div>
+        <div className="bg-stone-700 rounded-xl p-6 m-3">
+            <div className="text-xl text-neutral-800 font-medium pb-3 dark:text-neutral-50 ">{activity_id}</div>
+            <div className="text-base text-neutral-600 dark:text-neutral-200">date : {start_date}</div>
+            <div className="text-base text-neutral-600 dark:text-neutral-200">duration : {duration}</div>
+            <div className="text-base text-neutral-600 dark:text-neutral-200">location : {location}</div>
+            <div className="text-base text-neutral-600 dark:text-neutral-200">note : {note}</div>
         </div>
     );
 };
