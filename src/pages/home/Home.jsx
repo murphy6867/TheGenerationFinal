@@ -1,12 +1,14 @@
-import React from 'react';
 import './Home.css';
+import Navbar from '../../Components/Navbar';
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is home?</h1>
-    </div>
-  )
+    <main className='w-[100%]'>
+      <section className='flex'>
+          <Navbar />
+      </section>
+    </main>
+  ) 
 }
 
 export default Home
