@@ -10,7 +10,12 @@ const Register = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    if (name === "username" || name === "password" || name === "email") {
+      const updatedValue = value.replace(/\s/g, "");
+      setFormData({ ...formData, [name]: updatedValue });
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
   };
 
   const handleSubmit = (e) => {
@@ -67,7 +72,7 @@ const Register = () => {
               />
             </div>
             <div className="mb-4 flex h-full justify-center ">
-              <label className=" bg-transparent text-[10pt] border text-center text-sm px-3 opacity-50 py-2 mt-1 focus:border-blue-500" >Upload Picture</label>
+              <label className=" bg-transparent text-[10pt] border text-center text-sm px-3 opacity-50 py-2 mt-1 focus:border-blue-500">Upload Picture</label>
               <label htmlFor="img" className=" bg-transparent text-[10pt] visible text-center text-sm px-3 py-2 mt-1 focus:outline-none focus:border-blue-500 hover:underline">Choose file</label>
               <input
                 type="file"
