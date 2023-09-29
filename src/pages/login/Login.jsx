@@ -1,6 +1,8 @@
-import './Login.css'
-import React from 'react'
-import { Link } from 'react-router-dom'
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Login.css';
+
 
 const Login = () => {
   return (

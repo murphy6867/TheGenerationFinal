@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import './Register.css'
 
@@ -126,7 +127,5 @@ const Register = () => {
     <button id="signUp">Sign Up</button>
   </div>
 </>
-  )
-}
 
 export default Register;
